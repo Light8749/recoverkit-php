@@ -1,0 +1,5 @@
+#!/usr/bin/env php
+<?php
+// vendor/bin/recoverkit-connector setup|sync|status|detect
+define('RECOVERKIT_CONNECTOR_CLI', true);
+require __DIR__ . '/../recoverkit-connector.php';

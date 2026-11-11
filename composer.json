@@ -1,0 +1,34 @@
+{
+  "name": "light8749/recoverkit",
+  "description": "RecoverKit PHP SDK and read-only connector: record real sales and bring in past customers. Emails and phones are hashed before they leave your server.",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "recoverkit",
+    "sales-recovery",
+    "abandoned-checkout",
+    "win-back",
+    "laravel",
+    "woocommerce"
+  ],
+  "homepage": "https://github.com/Light8749/recoverkit",
+  "support": {
+    "issues": "https://github.com/Light8749/recoverkit/issues",
+    "source": "https://github.com/Light8749/recoverkit/tree/main/sdk/php"
+  },
+  "require": {
+    "php": ">=7.4",
+    "ext-json": "*",
+    "ext-curl": "*",
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "classmap": [
+      "RecoverKit.php",
+      "recoverkit-detect.php"
+    ]
+  },
+  "bin": [
+    "bin/recoverkit-connector"
+  ]
+}
